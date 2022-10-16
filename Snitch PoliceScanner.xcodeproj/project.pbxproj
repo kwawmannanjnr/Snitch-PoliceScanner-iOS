@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34F6AA128FA8BFE006AFC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6AA028FA8BFE006AFC16 /* AppDelegate.swift */; };
+		C34F6AA328FA8BFE006AFC16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6AA228FA8BFE006AFC16 /* SceneDelegate.swift */; };
+		C34F6AA528FA8BFE006AFC16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6AA428FA8BFE006AFC16 /* ViewController.swift */; };
+		C34F6AA828FA8BFE006AFC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34F6AA628FA8BFE006AFC16 /* Main.storyboard */; };
+		C34F6AAA28FA8C00006AFC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34F6AA928FA8C00006AFC16 /* Assets.xcassets */; };
+		C34F6AAD28FA8C00006AFC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34F6AAB28FA8C00006AFC16 /* LaunchScreen.storyboard */; };
+		C34F6AB828FA8C00006AFC16 /* Snitch_PoliceScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6AB728FA8C00006AFC16 /* Snitch_PoliceScannerTests.swift */; };
+		C34F6AC228FA8C01006AFC16 /* Snitch_PoliceScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6AC128FA8C01006AFC16 /* Snitch_PoliceScannerUITests.swift */; };
+		C34F6AC428FA8C01006AFC16 /* Snitch_PoliceScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6AC328FA8C01006AFC16 /* Snitch_PoliceScannerUITestsLaunchTests.swift */; };
+		C34F6AD128FA8C16006AFC16 /* networking in Resources */ = {isa = PBXBuildFile; fileRef = C34F6AD028FA8C16006AFC16 /* networking */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34F6AB428FA8C00006AFC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34F6A9528FA8BFE006AFC16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34F6A9C28FA8BFE006AFC16;
+			remoteInfo = "Snitch PoliceScanner";
+		};
+		C34F6ABE28FA8C01006AFC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34F6A9528FA8BFE006AFC16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34F6A9C28FA8BFE006AFC16;
+			remoteInfo = "Snitch PoliceScanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34F6A9D28FA8BFE006AFC16 /* Snitch PoliceScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snitch PoliceScanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34F6AA028FA8BFE006AFC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C34F6AA228FA8BFE006AFC16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C34F6AA428FA8BFE006AFC16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C34F6AA728FA8BFE006AFC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C34F6AA928FA8C00006AFC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C34F6AAC28FA8C00006AFC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C34F6AAE28FA8C00006AFC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34F6AB328FA8C00006AFC16 /* Snitch PoliceScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snitch PoliceScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34F6AB728FA8C00006AFC16 /* Snitch_PoliceScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_PoliceScannerTests.swift; sourceTree = "<group>"; };
+		C34F6ABD28FA8C01006AFC16 /* Snitch PoliceScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snitch PoliceScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34F6AC128FA8C01006AFC16 /* Snitch_PoliceScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_PoliceScannerUITests.swift; sourceTree = "<group>"; };
+		C34F6AC328FA8C01006AFC16 /* Snitch_PoliceScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_PoliceScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C34F6AD028FA8C16006AFC16 /* networking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = networking; path = "../../../Snitch PoliceRadio/Snitch PoliceRadio/networking"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34F6A9A28FA8BFE006AFC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34F6AB028FA8C00006AFC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34F6ABA28FA8C01006AFC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34F6A9428FA8BFE006AFC16 = {
+			isa = PBXGroup;
+			children = (
+				C34F6A9F28FA8BFE006AFC16 /* Snitch PoliceScanner */,
+				C34F6AB628FA8C00006AFC16 /* Snitch PoliceScannerTests */,
+				C34F6AC028FA8C01006AFC16 /* Snitch PoliceScannerUITests */,
+				C34F6A9E28FA8BFE006AFC16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34F6A9E28FA8BFE006AFC16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34F6A9D28FA8BFE006AFC16 /* Snitch PoliceScanner.app */,
+				C34F6AB328FA8C00006AFC16 /* Snitch PoliceScannerTests.xctest */,
+				C34F6ABD28FA8C01006AFC16 /* Snitch PoliceScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34F6A9F28FA8BFE006AFC16 /* Snitch PoliceScanner */ = {
+			isa = PBXGroup;
+			children = (
+				C34F6AD028FA8C16006AFC16 /* networking */,
+				C34F6AA028FA8BFE006AFC16 /* AppDelegate.swift */,
+				C34F6AA228FA8BFE006AFC16 /* SceneDelegate.swift */,
+				C34F6AA428FA8BFE006AFC16 /* ViewController.swift */,
+				C34F6AA628FA8BFE006AFC16 /* Main.storyboard */,
+				C34F6AA928FA8C00006AFC16 /* Assets.xcassets */,
+				C34F6AAB28FA8C00006AFC16 /* LaunchScreen.storyboard */,
+				C34F6AAE28FA8C00006AFC16 /* Info.plist */,
+			);
+			path = "Snitch PoliceScanner";
+			sourceTree = "<group>";
+		};
+		C34F6AB628FA8C00006AFC16 /* Snitch PoliceScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34F6AB728FA8C00006AFC16 /* Snitch_PoliceScannerTests.swift */,
+			);
+			path = "Snitch PoliceScannerTests";
+			sourceTree = "<group>";
+		};
+		C34F6AC028FA8C01006AFC16 /* Snitch PoliceScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C34F6AC128FA8C01006AFC16 /* Snitch_PoliceScannerUITests.swift */,
+				C34F6AC328FA8C01006AFC16 /* Snitch_PoliceScannerUITestsLaunchTests.swift */,
+			);
+			path = "Snitch PoliceScannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34F6A9C28FA8BFE006AFC16 /* Snitch PoliceScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34F6AC728FA8C01006AFC16 /* Build configuration list for PBXNativeTarget "Snitch PoliceScanner" */;
+			buildPhases = (
+				C34F6A9928FA8BFE006AFC16 /* Sources */,
+				C34F6A9A28FA8BFE006AFC16 /* Frameworks */,
+				C34F6A9B28FA8BFE006AFC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snitch PoliceScanner";
+			productName = "Snitch PoliceScanner";
+			productReference = C34F6A9D28FA8BFE006AFC16 /* Snitch PoliceScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34F6AB228FA8C00006AFC16 /* Snitch PoliceScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34F6ACA28FA8C01006AFC16 /* Build configuration list for PBXNativeTarget "Snitch PoliceScannerTests" */;
+			buildPhases = (
+				C34F6AAF28FA8C00006AFC16 /* Sources */,
+				C34F6AB028FA8C00006AFC16 /* Frameworks */,
+				C34F6AB128FA8C00006AFC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34F6AB528FA8C00006AFC16 /* PBXTargetDependency */,
+			);
+			name = "Snitch PoliceScannerTests";
+			productName = "Snitch PoliceScannerTests";
+			productReference = C34F6AB328FA8C00006AFC16 /* Snitch PoliceScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C34F6ABC28FA8C01006AFC16 /* Snitch PoliceScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34F6ACD28FA8C01006AFC16 /* Build configuration list for PBXNativeTarget "Snitch PoliceScannerUITests" */;
+			buildPhases = (
+				C34F6AB928FA8C01006AFC16 /* Sources */,
+				C34F6ABA28FA8C01006AFC16 /* Frameworks */,
+				C34F6ABB28FA8C01006AFC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34F6ABF28FA8C01006AFC16 /* PBXTargetDependency */,
+			);
+			name = "Snitch PoliceScannerUITests";
+			productName = "Snitch PoliceScannerUITests";
+			productReference = C34F6ABD28FA8C01006AFC16 /* Snitch PoliceScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34F6A9528FA8BFE006AFC16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C34F6A9C28FA8BFE006AFC16 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C34F6AB228FA8C00006AFC16 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C34F6A9C28FA8BFE006AFC16;
+					};
+					C34F6ABC28FA8C01006AFC16 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C34F6A9C28FA8BFE006AFC16;
+					};
+				};
+			};
+			buildConfigurationList = C34F6A9828FA8BFE006AFC16 /* Build configuration list for PBXProject "Snitch PoliceScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C34F6A9428FA8BFE006AFC16;
+			productRefGroup = C34F6A9E28FA8BFE006AFC16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34F6A9C28FA8BFE006AFC16 /* Snitch PoliceScanner */,
+				C34F6AB228FA8C00006AFC16 /* Snitch PoliceScannerTests */,
+				C34F6ABC28FA8C01006AFC16 /* Snitch PoliceScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34F6A9B28FA8BFE006AFC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34F6AAD28FA8C00006AFC16 /* LaunchScreen.storyboard in Resources */,
+				C34F6AAA28FA8C00006AFC16 /* Assets.xcassets in Resources */,
+				C34F6AD128FA8C16006AFC16 /* networking in Resources */,
+				C34F6AA828FA8BFE006AFC16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34F6AB128FA8C00006AFC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34F6ABB28FA8C01006AFC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34F6A9928FA8BFE006AFC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34F6AA528FA8BFE006AFC16 /* ViewController.swift in Sources */,
+				C34F6AA128FA8BFE006AFC16 /* AppDelegate.swift in Sources */,
+				C34F6AA328FA8BFE006AFC16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34F6AAF28FA8C00006AFC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34F6AB828FA8C00006AFC16 /* Snitch_PoliceScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34F6AB928FA8C01006AFC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34F6AC428FA8C01006AFC16 /* Snitch_PoliceScannerUITestsLaunchTests.swift in Sources */,
+				C34F6AC228FA8C01006AFC16 /* Snitch_PoliceScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34F6AB528FA8C00006AFC16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34F6A9C28FA8BFE006AFC16 /* Snitch PoliceScanner */;
+			targetProxy = C34F6AB428FA8C00006AFC16 /* PBXContainerItemProxy */;
+		};
+		C34F6ABF28FA8C01006AFC16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34F6A9C28FA8BFE006AFC16 /* Snitch PoliceScanner */;
+			targetProxy = C34F6ABE28FA8C01006AFC16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C34F6AA628FA8BFE006AFC16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34F6AA728FA8BFE006AFC16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C34F6AAB28FA8C00006AFC16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34F6AAC28FA8C00006AFC16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34F6AC528FA8C01006AFC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34F6AC628FA8C01006AFC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34F6AC828FA8C01006AFC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R87MQ44U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snitch PoliceScanner/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwawannan.-Scrumdinger.Snitch-PoliceScanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34F6AC928FA8C01006AFC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R87MQ44U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snitch PoliceScanner/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwawannan.-Scrumdinger.Snitch-PoliceScanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C34F6ACB28FA8C01006AFC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R87MQ44U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwawannan.-Scrumdinger.Snitch-PoliceScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snitch PoliceScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snitch PoliceScanner";
+			};
+			name = Debug;
+		};
+		C34F6ACC28FA8C01006AFC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R87MQ44U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwawannan.-Scrumdinger.Snitch-PoliceScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snitch PoliceScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snitch PoliceScanner";
+			};
+			name = Release;
+		};
+		C34F6ACE28FA8C01006AFC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R87MQ44U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwawannan.-Scrumdinger.Snitch-PoliceScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snitch PoliceScanner";
+			};
+			name = Debug;
+		};
+		C34F6ACF28FA8C01006AFC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R87MQ44U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwawannan.-Scrumdinger.Snitch-PoliceScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snitch PoliceScanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34F6A9828FA8BFE006AFC16 /* Build configuration list for PBXProject "Snitch PoliceScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34F6AC528FA8C01006AFC16 /* Debug */,
+				C34F6AC628FA8C01006AFC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34F6AC728FA8C01006AFC16 /* Build configuration list for PBXNativeTarget "Snitch PoliceScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34F6AC828FA8C01006AFC16 /* Debug */,
+				C34F6AC928FA8C01006AFC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34F6ACA28FA8C01006AFC16 /* Build configuration list for PBXNativeTarget "Snitch PoliceScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34F6ACB28FA8C01006AFC16 /* Debug */,
+				C34F6ACC28FA8C01006AFC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34F6ACD28FA8C01006AFC16 /* Build configuration list for PBXNativeTarget "Snitch PoliceScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34F6ACE28FA8C01006AFC16 /* Debug */,
+				C34F6ACF28FA8C01006AFC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34F6A9528FA8BFE006AFC16 /* Project object */;
+}
