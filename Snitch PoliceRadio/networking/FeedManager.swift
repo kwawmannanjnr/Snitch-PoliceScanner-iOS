@@ -19,7 +19,6 @@ public struct FeedManager {
     var apiKey = "123456"
     
     
-    
         func getAllFeedData() {
         
         // 1. Create URL
