@@ -4,7 +4,7 @@
 //
 //  Created by Kwaw Annan on 10/4/22.
 //
-
+//
 import Foundation
 
 protocol FeedManagerDelegate {
@@ -17,7 +17,7 @@ public struct FeedManager {
     var delegate : FeedManagerDelegate?
     var BASE_URL: String = "https://api.broadcastify.com/audio"
     var apiKey = "123456"
-    
+
     
         func getAllFeedData() {
         
