@@ -13,7 +13,13 @@ import AVKit
 
 class ViewController: UIViewController {
     
-//    var feed:FeedManager = FeedManager()
+    
+    var tableView:UITableView!
+    
+    let animalNames = ["Dogs", "Cats", "Rabbits", "Horses"]
+
+
+//    var feed: FeedManager = FeedManager()
    
     
 
@@ -21,7 +27,27 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        feed.getFeedData()
         audioPlayer(url: URL(string:"http://p5.broadcastify.com/z4d29xtc5rbpn7v")!)        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        
+        
+        setupTableView()
     }
+    func setupTableView() {
+        tableView = UITableView(frame: view.bounds)
+                view.addSubview(tableView)
+                
+                tableView.register(UITableViewCell.self,
+                                   forCellReuseIdentifier: "AnimalCell")
+
+                tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+                tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+                tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+                tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+                
+                tableView.dataSource = self
+                tableView.delegate = self
+    }
+    
     
 //    func play(url:URL) {
 //        print("playing \(url)")
@@ -47,23 +73,41 @@ class ViewController: UIViewController {
 
               //This is for a player screen, if you don't want to show a player screen you comment this part
 
-              let controller = AVPlayerViewController()
-              controller.player = player
-              controller.showsPlaybackControls = false
-              self.addChild(controller)
-              let screenSize = UIScreen.main.bounds.size
-              let videoFrame = CGRect(x: 0, y: 130, width: screenSize.width, height: (screenSize.height - 130) / 2)
-              controller.view.frame = videoFrame
-              self.view.addSubview(controller.view)
+//              let controller = AVPlayerViewController()
+//              controller.player = player
+//              controller.showsPlaybackControls = false
+//              self.addChild(controller)
+//              let screenSize = UIScreen.main.bounds.size
+//              let videoFrame = CGRect(x: 0, y: 130, width: screenSize.width, height: (screenSize.height - 130) / 2)
+//              controller.view.frame = videoFrame
+//              self.view.addSubview(controller.view)
               // till here
 
               player?.play()
             } catch {
             }
     }
+    
 
 
 }
+extension ViewController : UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return animalNames.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AnimalCell")! as UITableViewCell
+        cell.textLabel?.text = animalNames[indexPath.row]
+        return cell
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        print(animalNames[indexPath.row])
+    }}
 
 //protocol FeedManagerDelegate {
 //    func didLoadFeeds(_ FeedManager: FeedManager, feeds: Feeds)
