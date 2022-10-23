@@ -12,7 +12,6 @@ protocol FeedManagerDelegate {
     func didFailWithError(error: Error)
 }
 
-
 public struct FeedManager {
     
     var delegate : FeedManagerDelegate?

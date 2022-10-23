@@ -16,7 +16,6 @@ struct Feeds: Codable {
     }
 }
 
-
 // MARK: - Feed
 struct Feed: Codable {
     let id, status, listeners: Int
