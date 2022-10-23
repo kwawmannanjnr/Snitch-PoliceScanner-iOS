@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		C30E553127DB101300C1D629 /* Snitch_PoliceRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E553027DB101300C1D629 /* Snitch_PoliceRadioTests.swift */; };
 		C30E553C27DB101300C1D629 /* Snitch_PoliceRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E553B27DB101300C1D629 /* Snitch_PoliceRadioUITests.swift */; };
 		C34946DF28ECDA38006E0958 /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34946DE28ECDA38006E0958 /* network.swift */; };
+		C34F6A9128FA7CFC006AFC16 /* Feeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F6A9028FA7CFC006AFC16 /* Feeds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C30E553B27DB101300C1D629 /* Snitch_PoliceRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_PoliceRadioUITests.swift; sourceTree = "<group>"; };
 		C30E553D27DB101300C1D629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34946DE28ECDA38006E0958 /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
+		C34F6A9028FA7CFC006AFC16 /* Feeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				C34946DE28ECDA38006E0958 /* network.swift */,
+				C34F6A9028FA7CFC006AFC16 /* Feeds.swift */,
 			);
 			path = networking;
 			sourceTree = "<group>";
@@ -226,7 +229,7 @@
 				};
 			};
 			buildConfigurationList = C30E551127DB100F00C1D629 /* Build configuration list for PBXProject "Snitch PoliceRadio" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34F6A9128FA7CFC006AFC16 /* Feeds.swift in Sources */,
 				C30E551A27DB100F00C1D629 /* AppDelegate.swift in Sources */,
 				C30E551C27DB100F00C1D629 /* SceneDelegate.swift in Sources */,
 				C34946DF28ECDA38006E0958 /* network.swift in Sources */,
